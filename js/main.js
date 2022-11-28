@@ -95,7 +95,7 @@ jQuery(document).ready(function($){
   ga('send', 'pageview');
 
   let cart = document.querySelectorAll('.add-to-cart-link');
-  for (let i=0; i < cart.length; i++){
+  for (let i=0; i < carts.length; i++){
     cart[i].addEventListener('click',() => {
         console.log("added to cart");
 
