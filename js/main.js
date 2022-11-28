@@ -93,3 +93,12 @@ jQuery(document).ready(function($){
 
   ga('create', 'UA-10146041-21', 'auto');
   ga('send', 'pageview');
+
+  let cart = document.querySelectorAll('add-to-cart-link');
+  for (let i=0; i < cart.length; i++){
+    cart[i].addEventListener('click',() => {
+        console.log("added to cart");
+
+    })
+
+  }
