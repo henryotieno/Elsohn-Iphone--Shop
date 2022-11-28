@@ -94,7 +94,7 @@ jQuery(document).ready(function($){
   ga('create', 'UA-10146041-21', 'auto');
   ga('send', 'pageview');
 
-  let cart = document.querySelectorAll('.add-to-cart-button');
+  let cart = document.querySelectorAll('.add_to_cart_button');
   for (let i=0; i < carts.length; i++){
     cart[i].addEventListener('click',() => {
         console.log("added to cart");
